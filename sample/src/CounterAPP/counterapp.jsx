@@ -59,7 +59,7 @@ this.state={counter:0}
           <Button onClick={this.handleEvent8} variant="success">+4</Button>
           <Button onClick={this.handleEvent9} variant="success">+5</Button>
           </div>
-          <div style={{margin:"50px", fontFamily:"calibri", textAlignLast:"center", fontSize:"50px",}}>{this.state.counter}</div>
+          <div style={{margin:"50px", fontFamily:"calibri", textAlignLast:"center", fontSize:"50px"}}>{this.state.counter}</div>
         </div>
        </>
     )

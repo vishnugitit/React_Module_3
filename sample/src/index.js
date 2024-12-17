@@ -5,12 +5,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CounterAPP from './CounterAPP/counterapp';
+import Form from './CounterAPP/Form/form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
 <CounterAPP/>
+<Form/>
   </React.StrictMode>
 );
 
