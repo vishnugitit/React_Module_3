@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CounterAPP from './CounterAPP/counterapp';
 import Form from './CounterAPP/Form/form';
+import Even_Odd from './CounterAPP/Form/Number/even_odd';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     {/* <App /> */}
 <CounterAPP/>
 <Form/>
+<Even_Odd/>
   </React.StrictMode>
 );
 

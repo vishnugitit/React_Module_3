@@ -38,12 +38,12 @@ this.state={counter:0}
    render(){
     return(
         <>
-        <div style={{display:"flex", justifyContent:"space-around"}}>
+        <div style={{display:"flex", justifyContent:"space-around", marginBottom:"240px", border:'2px solid black'}}>
         <p >Task -7</p>
         <p>Date- 28-11-2024
         </p>
         </div>
-        <div style={{marginTop:"50px"}}>
+        <div style={{marginTop:"50px", height:"100vh"}}> 
             <div style={{display:"flex", justifyContent:"center", gap: "20px"}}>
           <Button onClick={this.handleEvent0} variant="danger">-1</Button>
           <Button onClick={this.handleEvent1} variant="danger">-2</Button>
