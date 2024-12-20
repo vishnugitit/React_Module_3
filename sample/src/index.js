@@ -4,17 +4,19 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CounterAPP from './CounterAPP/counterapp';
-import Form from './CounterAPP/Form/form';
-import Even_Odd from './CounterAPP/Form/Number/even_odd';
+// import CounterAPP from './CounterAPP/counterapp';
+// import Form from './CounterAPP/Form/form';
+// import Even_Odd from './CounterAPP/Form/Number/even_odd';
+import Spinner from './LifeCycle/spinner';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-<CounterAPP/>
+{/* <CounterAPP/>
 <Form/>
-<Even_Odd/>
+<Even_Odd/> */}
+<Spinner/>
   </React.StrictMode>
 );
 
