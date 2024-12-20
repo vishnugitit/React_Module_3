@@ -37,7 +37,7 @@ axios.get('https://fakestoreapi.com/products').then((res)=>{
     return (
        <div style={{display:"flex",flexDirection:"column"}}>
     
-         <Card style={{ width: '18rem' ,height:"600px",}}>
+         <Card style={{ width: '18rem' ,height:"400px",}}>
       <Card.Img variant="top" src={a.image} style={{height: "200px", width:"200px"}}/>
       <Card.Body>
         <Card.Title>{a.title}</Card.Title>
